@@ -2086,5 +2086,30 @@ a:hover.back-to-top {
     margin-left: 1.75rem;
   }
   /* end of extra pages */
+  /* end of min-width width 1200px */
 }
-/* end of min-width width 1200px */
+
+/* animated-h1 in normal */
+.animated-h1
+{
+  height: 7rem;
+}
+/* animated-h1 in normal end */
+
+
+/*start of animated h1 @media less than 992px*/
+   @media(max-width:991px){
+     
+      .animated-h1
+      {
+      height: auto;
+      }
+  
+
+      
+
+    }
+  
+/*end of animated h1 @media less than 992px*/
+
+
